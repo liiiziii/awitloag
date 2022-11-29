@@ -28,7 +28,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('img/agiraffe_title_bg.png');
+  background-image: url('img/agiraffe_title_bg_black.png');
   min-height: 100%;
 }
 
@@ -45,7 +45,6 @@ body, html {
 }
 
 .img-responsive {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -89,11 +88,9 @@ body, html {
 </div>---------------->
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-	<p><b></b></p>
-	<br><br><br><br>
-    <img src="img/agiraffe_title.png" class="img-responsive">
+<div class="w3-center w3-padding-64" id="home">
+  <div class="w3-center">
+    <img src="img/asocial_giraffe_poster.png" class="img-responsive">
   </div>
 </div>
 
@@ -270,6 +267,17 @@ body, html {
 
 <!-- Footer -->
 <footer class="bgimg-1 w3-center w3-padding-64">
+<form
+  action="https://formspree.io/f/mbjbenjj"
+  method="POST"
+>
+  <label>
+  If you would like to hear more about Asocial Giraffe <br>
+    <input type="email" name="email">
+  </label>
+  <button type="submit" class="w3-button w3-black w3-section">Join email list</button>
+</form>
+
 <!----------------
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
 ---------------->
@@ -286,7 +294,7 @@ body, html {
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
   ---------------->
-  <p>&copy; Ammil. All rights reserved.</p>
+  <p>&copy; <a href="mailto:asocialgiraffe@gmail.com">Ammil.</a> All rights reserved.</p>
 </footer>
  
 <script>
