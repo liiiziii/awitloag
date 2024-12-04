@@ -70,6 +70,10 @@ body {
         width: 90%;
         height: auto;
     }
+
+    #iframeStyle {
+        padding: 56.25% 0 0 0 !important; /* Adjust aspect ratio for better fit */
+    }
     
     .text-container {
         width: 90% !important;
