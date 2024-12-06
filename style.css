@@ -153,3 +153,14 @@ body {
         max-width: 100%;
     }
 }
+
+
+@media (min-aspect-ratio: 2) {
+    .footer-image {
+        content: url('assets/images/footer_wide.png');
+    }
+
+    .giraffe-image {
+        content: url('assets/images/giraffe_footer_wide.png');
+    }
+}
